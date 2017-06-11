@@ -1,0 +1,60 @@
+div {
+  clear: left;
+}
+h1 {
+  color: black;
+  font-size: 250%;
+  border-top: 150px;
+  border-color: #b3cccc;
+  text-align: auto;
+}
+h2 {
+  color: blue;
+  font-size: 200%;
+}
+h3 {
+  color: blue;
+  font-size: 200%;
+}
+h4 {
+  color: blue;
+  font-size: 200%;
+}
+p.one {
+  font-size: 125%;
+  float: both;
+}
+p.two {
+  font: 150%;
+  float: both;
+}
+p.three {
+  font-size: 150%;
+  float: both;
+}
+body {
+  background-color: #b3ffb3;
+}
+a {
+  font-size: 150%;
+  color: inherit;
+}
+ul {
+  display: inline-block;
+  font-size: 125%;
+}
+ol {
+  display: grid;
+  font-size: 125%;
+}
+li {
+  font-size: 125%;
+  display: inline-block;
+}
+img {
+  width: 250px;
+  height: 250;
+  float: left;
+  margin-right: 10px;
+  border: 100px;
+}
