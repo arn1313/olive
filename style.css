@@ -40,9 +40,9 @@ a {
   font-size: 100%;
   color: BLACK;
 }
-ul {
-  display: inline;
+ul.circle {
   font-size: 150%;
+  list-style-type: circle;
 }
 ol {
   display: grid;
