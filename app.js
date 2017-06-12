@@ -1,42 +1,42 @@
 'use strict';
-// var userName =  prompt('Welcome to Olive and Martini! What is your name?');
-// console.log('We have a new vistor named ' + userName + '.');
-// confirm('Thank you for coming over ' + userName + ' !');
-// console.log('Thank you for coming over ' + userName + ' !.');
-// // //Question 6
-// // //numeric guessing game
-// // //they get 4 tries have to say if they are too high or too low
-// function question6() {
-//   var number = 7;
-//   var tries = 4;
-//   var isWrong = true;
-//   while (tries > 0){
-//     var answer = parseInt(prompt('Guess how old Olive, the brown boston is. You have four tries.'));
-//     if (answer === number) {
-//       alert('Great Guess! You are correct. She is seven and Martini is 4.');
-//       console.log('Our friend ' + userName + ' thinks Olive is ' + answer + ' years old.');
-//       tries = 0;
-//       isWrong = false;
-//       rightAnswer++;
-//     } else if (answer < number){
-//       alert('Your number is too low!');
-//       console.log(userName + ' guessed that Olive was ' + answer + ' years old.');
-//       tries--;
-//     } else if (answer > number){
-//       alert('Your number is too high!');
-//       console.log(userName + ' guessed that Olive was ' + answer + ' years old.');
-//       tries--;
-//     } else {
-//       alert('Sorry, try again.');
-//       console.log(userName + ' may be drinking with their answer of' + answer + '.');
-//       tries--;
-//     }
-//   }
-//   if (isWrong === true){
-//     alert('Sorry you ran out of guesses. Olive is seven and Martini is four.');
-//     console.log(userName + ' has ran oput of guesses.');
-//   }
-// }
+var userName =  prompt('Welcome to Olive and Martini! What is your name?');
+console.log('We have a new vistor named ' + userName + '.');
+confirm('Thank you for coming over ' + userName + ' !');
+console.log('Thank you for coming over ' + userName + ' !.');
+// //Question 6
+// //numeric guessing game
+// //they get 4 tries have to say if they are too high or too low
+function question6() {
+  var number = 7;
+  var tries = 4;
+  var isWrong = true;
+  while (tries > 0){
+    var answer = parseInt(prompt('Guess how old Olive, the brown boston is. You have four tries.'));
+    if (answer === number) {
+      alert('Great Guess! You are correct. She is seven and Martini is 4.');
+      console.log('Our friend ' + userName + ' thinks Olive is ' + answer + ' years old.');
+      tries = 0;
+      isWrong = false;
+      rightAnswer++;
+    } else if (answer < number){
+      alert('Your number is too low!');
+      console.log(userName + ' guessed that Olive was ' + answer + ' years old.');
+      tries--;
+    } else if (answer > number){
+      alert('Your number is too high!');
+      console.log(userName + ' guessed that Olive was ' + answer + ' years old.');
+      tries--;
+    } else {
+      alert('Sorry, try again.');
+      console.log(userName + ' may be drinking with their answer of' + answer + '.');
+      tries--;
+    }
+  }
+  if (isWrong === true){
+    alert('Sorry you ran out of guesses. Olive is seven and Martini is four.');
+    console.log(userName + ' has ran out of guesses.');
+  }
+}
 // //
 // var tries = 0;
 // var rightAnswer = 0;
